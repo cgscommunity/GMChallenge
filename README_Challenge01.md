@@ -12,7 +12,8 @@ Whack-A-Zombie! Our Halloween themed Whack-A-Mole game. Using the provided scene
 ## Bonus Examples:
 Be creative! As long as the above Required Mechanics are met, we encourage you to add to them/adapt them in any way you like! Here are some examples of things that can be done:
 * An effect triggers when hands are hit
-* Hands are out longer, but have health
+* Random exposed hand duration
+* Hands have health
 * Player has health and can be damaged if walking into a hand
 * An extra spin attack that hits multiple hands in the area (there is a provided second attack animation for this)
 
@@ -20,7 +21,7 @@ Be creative! As long as the above Required Mechanics are met, we encourage you t
 You will have two weeks to complete this challenge. All challenges must be submitted by **Sunday, November 7th**.
 
 ## How to Submit:
-Record a video playthrough of your challenge and post it on the #open_session-programming channel by the due date.
+Record a video playthrough of your challenge, name it **Challenge001_YourName**, and post it on the #open_session-programming channel by the due date.
 
 ## Project Organization:
 The Project is organized by Challenge Assets and Global Assets. Challenge Assets are anything related to that specific challenge (Meshes, Blueprints, Audio, Materials, etc). Global Assets are anything that will be used in multiple challenges, most notably the character and their animations, blueprints, materials, etc.
