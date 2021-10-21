@@ -1,14 +1,40 @@
-# GMChallenge
-Student version of the monthly Game Mechanic Challenge
+# Whack-A-Zombie
+Whack-A-Zombie! Our Halloween themed Whack-A-Mole game. Using the provided scene, you will be creating a Whack-A-Mole style game. Zombie hands should rise from randomized dirt patches in the ground, and players should be able to hit them and earn points for each zombie hand they hit. See the attached video for an example of the final results.
 
-## What is a Game Mechanic Challenge? 
-The Game Mechanic Challenges will be a chance for you to put your knowledge of C++ and UE4 to the test! Each month, we will provide everyone with a pre-setup scene. The scene will contain all the necessary assets and programming leading up to the mechanic you will be creating. This allows you to just focus on how you would implement a specific mechanic without concerning yourself with all the setup necessary to get to that point. We will also provide a video demonstrating the final goal of the challenge.
-Every challenge will have a new goal. How you approach that goal is up to you! Keep in mind, don’t take the final goal video as the law on how it should look in the end. As long as the base mechanic requirements are there, you can add to it or adapt it in any way you like! Be creative!
-## Why should I participate? 
-While these challenges are voluntary, we highly encourage as many students to participate as possible! They will be a way for you to practice the skills you’re learning in class, but also a way to build up a portfolio of a variety of mechanics that might not be covered in the main course. These challenges also simulate the day to day tasks of being a videogame programmer in the industry. You will often receive a list of mechanics and it will be your job to make them happen.
-## How long will I have to complete each challenge? 
-While every challenge is subject to different time frames, on average students will be given two weeks to complete each challenge. We want you to have plenty of time to tackle the task presented to you and find ways to add a little extra flare to it, if you so choose.
-## How will I submit my challenge? 
-Record a video playthrough of your challenge and post it on the #open_session-programming channel by the due date. Don't forget to share your progress along the way!
+**DISCLAIMER**: The assets provided in this project are for personal use only. **DO NOT** use them in your commercial projects unless you have purchased them yourself from the Unreal Marketplace.
+## Required Mechanics:
+* Countdown to start the game
+* Zombie hands randomly raise from dirt patches in the ground (how many is up to you!)
+* Players can hit the Zombie hands when they are raised and it will update the HUD to show their score.
+* Players have a limited time to hit as many hands as they can which is displayed as a timer in the HUD.
+* End of match screen that shows the total hands hit and the total zombie hands spawned.
 
-For instructions and helpful tips on the challanges, see their respective README_ChallengeName file. We are very excited to see what you all create with these challenges! For each challenge we encourage you to share your progress in this channel. Lean on your mentors, myself, and fellow students for questions and support! If you have any questions about the challenge requirements or general questions, feel free to reach out to @Jeff Giron.
+## Bonus Examples:
+Be creative! As long as the above Required Mechanics are met, we encourage you to add to them/adapt them in any way you like! Here are some examples of things that can be done:
+* An effect triggers when hands are hit
+* Hands are out longer, but have health
+* Player has health and can be damaged if walking into a hand
+* An extra spin attack that hits multiple hands in the area (there is a provided second attack animation for this)
+
+## Due Date:
+You will have two weeks to complete this challenge. All challenges must be submitted by **Sunday, November 7th**.
+
+## How to Submit:
+Record a video playthrough of your challenge and post it on the #open_session-programming channel by the due date.
+
+## Project Organization:
+The Project is organized by Challenge Assets and Global Assets. Challenge Assets are anything related to that specific challenge (Meshes, Blueprints, Audio, Materials, etc). Global Assets are anything that will be used in multiple challenges, most notably the character and their animations, blueprints, materials, etc.
+
+### Important Challenge Assets:
+Primarially for this challenge you will be focusing on the following assets:
+
+**File Path: GMC/Challenges/Challenge_001/Blueprints**
+* BP_GMCGameMode_001
+* BP_ZombieGrid
+* BP_ZombieHand
+
+**File Path: GMC/Challenges/Challenge_001/UI**
+* WBP_HUD
+
+**File Path: GMC/GlobalAssets/Characters/Blueprints**
+* BP_GMCHero
