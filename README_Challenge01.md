@@ -26,7 +26,7 @@ Record a video playthrough of your challenge and post it on the #open_session-pr
 The Project is organized by Challenge Assets and Global Assets. Challenge Assets are anything related to that specific challenge (Meshes, Blueprints, Audio, Materials, etc). Global Assets are anything that will be used in multiple challenges, most notably the character and their animations, blueprints, materials, etc.
 
 ### Important Challenge Assets:
-Primarially for this challenge you will be focusing on the following assets:
+Primarily for this challenge you will be focusing on the following assets:
 
 **File Path: GMC/Challenges/Challenge_001/Blueprints**
 * BP_GMCGameMode_001
