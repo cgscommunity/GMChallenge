@@ -29,6 +29,8 @@ The Project is organized by Challenge Assets and Global Assets. Challenge Assets
 ### Important Challenge Assets:
 Primarily for this challenge you will be focusing on the following assets:
 
+#### Blueprints:
+
 **File Path: GMC/Challenges/Challenge_001/Blueprints**
 * BP_GMCGameMode_001
 * BP_ZombieGrid
@@ -39,3 +41,11 @@ Primarily for this challenge you will be focusing on the following assets:
 
 **File Path: GMC/GlobalAssets/Characters/Blueprints**
 * BP_GMCHero
+
+### Animations:
+**File Path: GMC/GlobalAssets/Characters/Animations**
+* Character Animations
+
+**File Path: GMC/Challenges/Challenge_001/Meshes/Props/ZombieHand/Animations**
+* Zombie Hand Animations
+* ZombieHandMontage
