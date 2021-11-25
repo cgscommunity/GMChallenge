@@ -39,7 +39,6 @@ public:
 	TEnumAsByte<EMovementStatus> MovementStatus;
 	UPROPERTY(BlueprintReadWrite, Category = "Movement Status")
 	TEnumAsByte<EActionStatus> ActionStatus;
-	
 	UPROPERTY(EditAnywhere, Category = "Look")
 	float BaseLookRate = 90.0f;
 	UPROPERTY(EditAnywhere, Category = "Look")

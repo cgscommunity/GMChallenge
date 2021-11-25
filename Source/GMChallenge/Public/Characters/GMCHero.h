@@ -23,24 +23,27 @@ public:
 	AGMCHero();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
+	FName WeaponSocket = TEXT("None");
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
 	UStaticMeshComponent* Weapon;
 	UPROPERTY(EditAnywhere, Category = "Animation")
 	UAnimMontage* AttackMontage = nullptr;
+	UPROPERTY(EditAnywhere, Category = "Weapon")
+	bool bWeaponEquipped = false;
 	
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
-	bool bWeaponEquipped;
-	
 	UFUNCTION(BlueprintPure)
-	bool GetIsWeaponEquipped(){return bWeaponEquipped;}
+	bool GetIsWeaponEquipped();
 
 	void PlayAttackMontage();
 
 protected:
 
 	virtual void BeginPlay() override;
+	virtual void PostEditChangeProperty(struct FPropertyChangedEvent& e);
 	
 };

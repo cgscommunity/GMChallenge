@@ -39,28 +39,33 @@ AGMCHero::AGMCHero()
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
 	Weapon = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Weapon"));
-	Weapon->SetupAttachment(GetMesh(), FName(TEXT("SKT_Weapon")));
+	Weapon->SetupAttachment(GetMesh(), FName(WeaponSocket));
 	WeaponCollision = CreateDefaultSubobject<UCapsuleComponent>(TEXT("WeaponCollision"));
 	WeaponCollision->SetupAttachment(Weapon);
+	
+	GetIsWeaponEquipped();
+}
+
+void AGMCHero::PostEditChangeProperty(struct FPropertyChangedEvent& e)
+{
+	Super::PostEditChangeProperty(e);
+ 
+	FName PropertyName = (e.Property != NULL) ? e.Property->GetFName() : NAME_None;
+	if (PropertyName == GET_MEMBER_NAME_CHECKED(AGMCHero, WeaponSocket))
+	{
+		Weapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
+	}
 }
 
 void AGMCHero::BeginPlay()
 {
 	Super::BeginPlay();
 
-	if (Weapon)
-	{
-		bWeaponEquipped = true;
-	}
-	else
-	{
-		bWeaponEquipped = false;
-	}
+}
 
-	if (AttackMontage)
-	{
-		
-	}
+bool AGMCHero::GetIsWeaponEquipped()
+{
+	return bWeaponEquipped;
 }
 
 void AGMCHero::PlayAttackMontage()

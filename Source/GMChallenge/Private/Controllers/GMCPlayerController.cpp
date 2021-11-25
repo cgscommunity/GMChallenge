@@ -50,6 +50,11 @@ void AGMCPlayerController::BeginPlay()
 
 void AGMCPlayerController::RequestMoveForward(float AxisValue)
 {
+	if(!GetPawn())
+	{
+		return;
+	}
+
 	if (!bLockPlayerMovement)
 	{
 		if (AxisValue != 0.f)
@@ -71,6 +76,11 @@ void AGMCPlayerController::RequestMoveForward(float AxisValue)
 
 void AGMCPlayerController::RequestMoveRight(float AxisValue)
 {
+	if (!GetPawn())
+	{
+		return;
+	}
+
 	if (!bLockPlayerMovement)
 	{
 		if (AxisValue != 0.f)
@@ -102,46 +112,52 @@ void AGMCPlayerController::RequestTurn(float AxisValue)
 
 void AGMCPlayerController::RequestJump()
 {
+	if (!GMCHero)
+	{
+		return;
+	}
+
 	if (!bLockPlayerMovement)
 	{
-		if (GMCHero)
-		{
-			MovementStatus = EMovementStatus::Jumping;
-			GMCHero->Jump();
-		}
+		MovementStatus = EMovementStatus::Jumping;
+		GMCHero->Jump();
 	}
 }
 
 void AGMCPlayerController::RequestStopJump()
 {
+	if (!GetCharacter())
+	{
+		return;
+	}
+
 	if (!bLockPlayerMovement)
 	{
-		if (GetCharacter())
-		{
-			GMCHero->StopJumping();
-			MovementStatus = EMovementStatus::Idle;
-		}
+		GMCHero->StopJumping();
+		MovementStatus = EMovementStatus::Idle;
 	}
 }
 
 void AGMCPlayerController::RequestAttack()
 {
-	if (!bLockPlayerMovement)
+	if (!GMCHero) 
 	{
-		if (GMCHero)
+		return;
+	}
+
+	if (ActionStatus != EActionStatus::Attacking)
+	{
+		if (!bLockPlayerMovement)
 		{
-			GMCHero->PlayAttackMontage();
-			ActionStatus = EActionStatus::Attacking;
-		}
+				GMCHero->PlayAttackMontage();
+				ActionStatus = EActionStatus::Attacking;
+		}	
 	}
 }
 
 void AGMCPlayerController::RequestStopJAttack()
 {
-	if (!bLockPlayerMovement)
-	{
-		ActionStatus = EActionStatus::None;
-	}
+	
 }
 
 void AGMCPlayerController::RequestCrouchStart()

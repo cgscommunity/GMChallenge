@@ -1,0 +1,16 @@
+NEW SOCKET AND ATTACH POINT FOR RIFLE
+
+
+Rifle Pro Version 2.7A has a new Socket on the Right Middle Finger 01 for attaching the Rifle, and all updated Animations to use it. The original custom added “hand_r_wep” bone is no longer used.
+
+This allows other Characters with skeletal meshes that use the stock Epic Skeleton and proportions to instantly integrate into a Project with the “Assign Skeleton” function, or the Retarget Manager.
+
+This new attachment point allows the Right Middle Finger base to articulate and adjust the position of the Rifle in different poses without breaking the wrist and replacing the need for a custom “hand_r_wep” bone as before. The two basic positions are still "Aim" and "Relaxed".
+
+This makes the animations much easier to work into any pipeline with other skeletal meshes using the stock SK_Mannequin Epic skeleton, no custom rigging.
+
+
+NOTE: The animations are visually identical to version 2.7 - except for the modified Socket attachment and tweaked hand/arm/finger animations to use the new socket properly. 
+If you have a working pipeline with 2.7 and don't want to use the new altered socket attachment, there is no reason to update to the 2.7A animations. Be sure to back up your 2.7 animations and don't accidentally overwrite them with 2.7A. If you need a copy of 2.7 in the future, contact us and we can provide the files.
+
+UE4@MotusDigital.com
