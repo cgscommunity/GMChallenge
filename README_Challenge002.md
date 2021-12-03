@@ -44,17 +44,17 @@ Primarily for this challenge you will be focusing on the following assets:
 * WBP_002_HitPoints
 * WBP_002_ToyStat
 
-### Animations:
+#### Animations:
 **File Path: GMC/Challenges/Challenge_002/Animation**
 * AnimBP_CGS_Hero_002
 * BS_IdleWalkRun_Snowball
 * ThrowMontage
 
-### Data:
+#### Data:
 **File Path: GMC/Challenges/Challenge_002/Data**
 * DT_ToyList
 * FToyData
 
-### Maps
+#### Maps
 **File Path: GMC/Challenges/Challenge_002_SnowToss/Maps**
 * Challenge_002
