@@ -52,7 +52,9 @@ public:
 	void RequestJump();
 	void RequestStopJump();
 
+    UFUNCTION(BlueprintNativeEvent)
 	void RequestAttack();
+	void RequestAttack_Implementation();
 	void RequestStopJAttack();
 
 	void RequestCrouchStart();
@@ -72,11 +74,15 @@ public:
 	void SetActionStatus(EActionStatus const NewStatus) {ActionStatus = NewStatus;}
 	UFUNCTION(BlueprintCallable)
     void LockPlayerMovement(bool bShouldLock) {bLockPlayerMovement = bShouldLock;}
+    UFUNCTION(BlueprintCallable)
+    void LockPlayerActions(bool bShouldLock) {bLockPlayerActions = bShouldLock;}
 
 protected:
 	
 	void SetupInputComponent() override;
 	virtual void BeginPlay() override;
 	
-	bool bLockPlayerMovement;	
+	bool bLockPlayerMovement;
+	bool bLockPlayerActions;	
+
 };

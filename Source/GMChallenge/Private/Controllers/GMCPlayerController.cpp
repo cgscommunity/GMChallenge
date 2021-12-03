@@ -138,7 +138,7 @@ void AGMCPlayerController::RequestStopJump()
 	}
 }
 
-void AGMCPlayerController::RequestAttack()
+void AGMCPlayerController::RequestAttack_Implementation()
 {
 	if (!GMCHero) 
 	{
@@ -147,7 +147,7 @@ void AGMCPlayerController::RequestAttack()
 
 	if (ActionStatus != EActionStatus::Attacking)
 	{
-		if (!bLockPlayerMovement)
+		if (!bLockPlayerActions)
 		{
 				GMCHero->PlayAttackMontage();
 				ActionStatus = EActionStatus::Attacking;

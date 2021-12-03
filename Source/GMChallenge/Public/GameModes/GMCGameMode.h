@@ -45,4 +45,6 @@ public:
 	void HideHUD();
 	UFUNCTION(BlueprintCallable)
 	void ShowHUD();
+	UFUNCTION(BlueprintPure)
+	UGMCHUD* GetHUD() {return PlayerHUD;}
 };

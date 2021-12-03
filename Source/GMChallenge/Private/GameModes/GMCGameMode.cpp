@@ -17,7 +17,6 @@ void AGMCGameMode::BeginPlay()
 		if (HUDClass)
 		{
 			PlayerHUD = CreateWidget<UGMCHUD>(PC, PlayerHUD_Class);
-			PlayerHUD->AddToViewport();
 		}
 		if (InteractionPopUpClass)
 		{
@@ -44,10 +43,16 @@ void AGMCGameMode::ShowInteractionPopUp()
 
 void AGMCGameMode::HideHUD()
 {
-	PlayerHUD->SetVisibility(ESlateVisibility::Hidden);
+	if (PlayerHUD)
+	{
+		PlayerHUD->RemoveFromViewport();
+	}
 }
 
 void AGMCGameMode::ShowHUD()
 {
-	PlayerHUD->SetVisibility(ESlateVisibility::Visible);
+	if (PlayerHUD)
+	{
+		PlayerHUD->AddToViewport();
+	}
 }
