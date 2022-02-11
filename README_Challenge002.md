@@ -6,7 +6,7 @@ Snow Toss! Our Winter themed game. Using the provided scene, you will be creatin
 * Countdown timer that indicates when the game begins
 * A random one of the 3 presents fire out toys that can be hit
 * Toys that appear are randomized
-* Indicate when toys have been hit through visual queus on HUD and sounds
+* Indicate when toys have been hit through visual queues on HUD and sounds
 * Each Toy has a different point value
 * End of match screen that shows the results(Total points earned from hitting toys)
 
@@ -16,7 +16,7 @@ Be creative! As long as the above Required Mechanics are met, we encourage you t
 * Visual effect when Toys are successfully hit
 * Show the images of each toy successfully hit
 * If duplicate toys are hit, stack them in the results screen and show their total points earned
-* Higer score for faster hit( time on screen for targets effects score)
+* Higher score for faster hit( time on screen for targets effects score)
 
 ## Due Date:
 You will have just over two weeks to complete this challenge. All challenges must be submitted by **Monday, December 20th**.
@@ -44,17 +44,17 @@ Primarily for this challenge you will be focusing on the following assets:
 * WBP_002_HitPoints
 * WBP_002_ToyStat
 
-### Animations:
+#### Animations:
 **File Path: GMC/Challenges/Challenge_002/Animation**
 * AnimBP_CGS_Hero_002
 * BS_IdleWalkRun_Snowball
 * ThrowMontage
 
-### Data:
+#### Data:
 **File Path: GMC/Challenges/Challenge_002/Data**
 * DT_ToyList
 * FToyData
 
-### Maps
+#### Maps
 **File Path: GMC/Challenges/Challenge_002_SnowToss/Maps**
 * Challenge_002
