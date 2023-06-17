@@ -8,24 +8,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40cf65ef-1deb-4464-af95-58af960bd2e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Global_Assets/Blueprints/BP_GMGameModeBase.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Global_Assets/Materials/logo.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Global_Assets/Materials/logo_Mat.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Global_Assets/Materials/logo_Mat_Inst.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Global_Assets/logo_Mat.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BallandHoopChallenge/Maps/DefaultMap.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BallandHoopChallenge/Maps/DefaultMap1.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BallandHoopChallenge/Materials/M_Basketball.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BallandHoopChallenge/Materials/M_BasketballHoop.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BallandHoopChallenge/Materials/M_Net.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BallandHoopChallenge/Meshes/SM_Basketball.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BallandHoopChallenge/Meshes/SM_BasketballHoop.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BallandHoopChallenge/Textures/T_BasketballHoop_B.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BallandHoopChallenge/Textures/T_BasketballHoop_N.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BallandHoopChallenge/Textures/T_BasketballHoop_ORM.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BallandHoopChallenge/Textures/T_Basketball_B.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BallandHoopChallenge/Textures/T_Basketball_N.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BallandHoopChallenge/Textures/T_Basketball_ORM.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BallandHoopChallenge/Textures/T_Net_B.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README_BallandHoop.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GMChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GMChallenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Global_Assets/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Global_Assets/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Global_Assets/StarterContent/Maps/StarterMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Global_Assets/StarterContent/Maps/StarterMap.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Global_Assets/ThirdPerson/Maps/DefaultMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Global_Assets/ThirdPerson/Maps/DefaultMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LockingDoorChallenge/Maps/LockingDoor.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/LockingDoorChallenge/Maps/LockingDoor.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README_LockingDoor.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_LockingDoor.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GMChallenge/GMChallengeGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GMChallenge/GMChallengeGameMode.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -49,6 +60,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ezargs.lastUsed&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -133,6 +145,11 @@
       <workItem from="1684433387479" duration="675000" />
       <workItem from="1684434758657" duration="1439000" />
       <workItem from="1684444806975" duration="887000" />
+      <workItem from="1684446738922" duration="720000" />
+      <workItem from="1685982435325" duration="1772000" />
+      <workItem from="1685985400716" duration="4879000" />
+      <workItem from="1686193677969" duration="2535000" />
+      <workItem from="1687023240008" duration="1097000" />
     </task>
     <servers />
   </component>

@@ -9,6 +9,6 @@ While these challenges are voluntary, we highly encourage as many students to pa
 ## How long will I have to complete each challenge? 
 While every challenge is subject to different time frames, on average students will be given two weeks to complete each challenge. We want you to have plenty of time to tackle the task presented to you and find ways to add a little extra flare to it, if you so choose.
 ## How will I submit my challenge? 
-Record a video play through of your challenge and post it on the #general_programming channel by the due date if possible but dont be afraid to share later either. Don't forget to share your progress along the way!
+Record a video play through of your challenge and post it on the #general_programming channel by the due date if possible but dont be afraid to share later either. Then reply in thread with how you accomplished you task and things you are proud of! Don't forget to share your progress along the way!
 
 For instructions and helpful tips on the challenges, see their respective README_ChallengeName file. We are very excited to see what you all create with these challenges! For each challenge we encourage you to share your progress in this channel. Lean on your mentors, myself, and fellow students for questions and support! If you have any questions about the challenge requirements or general questions, feel free to reach out to @Pace Abbott.
